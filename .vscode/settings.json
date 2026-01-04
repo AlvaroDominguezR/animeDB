@@ -1,0 +1,14 @@
+{
+    // ... otras configuraciones
+    "emmet.syntaxProfiles": {
+        // Asegura que en la sintaxis 'jsx' (que incluye .jsx y .tsx)
+        // Emmet sustituya 'class' por 'className'.
+        "jsx": "xml",
+        // Es redundante si 'jsx' ya está, pero no hace daño.
+        "javascript": "jsx" 
+    },
+    
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact" 
+    }
+}

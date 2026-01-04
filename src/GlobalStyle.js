@@ -10,11 +10,11 @@ const GlobalStyle = createGlobalStyle`
         list-style: none;
         text-decoration: none;
         font-family: 'Inter', sans-serif;
-
     }
 
     body{
-    background-color: red;S
+        color: #6c7983;
+        font-size: 1.2rem;
     }
 `;
 
